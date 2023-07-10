@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: linear-gradient( to right, black, rgba(0, 0, 0, 0.99),rgba(255, 0, 0, 0.89),red);
+}
+
+section.container{
+    width:300px;
+    height:600px;
+    background-color: rgba(18, 18, 18, 0.931);
+    position: absolute;
+    top: 21%;
+    left: 36%;
+    border-radius: 10px;
+}
+
+div.visor{
+    width:100%;
+    height:30%;
+    background-color: black;
+}
+
+div#num1{
+    color:white;
+    position:absolute;
+    top:60px;
+    left: 20px;
+    font-size: 40px;
+}
+
+div.operadores{
+    width: 100%;
+    height:10%;
+    background-color:darkred;
+    display: flex;
+    justify-content: end;
+}
+
+div.operadores h2{
+    font-size:45px;
+    margin-right:50px;
+    color:white;
+    cursor:pointer;
+}
+
+div.pad{
+    width:100%;
+    height:60%;
+    display: flex;
+    flex-wrap:wrap;
+    margin:0 auto;
+    justify-content: center;
+    align-items: center;
+}
+
+div.pad > .box{
+    color:rgba(255, 255, 255, 0.826);
+    font-size: 50px;
+    width:calc(100% / 3);
+    padding-left:30px; 
+    border:1px solid rgba(255, 0, 0, 0.109);
+    border-radius: 10px;
+    cursor:pointer;
+}
+
+div.pad h3{
+    font-size: 50px;
+    margin: 0 auto;
+    color:white;
+    cursor: pointer;
+}
